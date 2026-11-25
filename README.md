@@ -46,4 +46,4 @@ Version 1.0 — Experimental prototype.
 
 ## License
 
-MIT License (planned).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
