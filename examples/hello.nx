@@ -1,11 +1,28 @@
+# NexLang 2.0 - Demo Program
 
-# My first NexLang program
+name = ask("Enter your name: ")
 
-say "Hello, World!"
+show("Hello,", name)
+show("Welcome to NexLang!")
 
-loop 3:
-    say "Welcome to NexLang!"
+# Custom keyword: repeat
+repeat 3:
+    show("I am learning NexLang!")
 
-pause 1
+# Custom keyword: when and otherwise
+age = roll(18, 25)
 
-say "Program completed!"
+show("Your generated age is:", age)
+
+when age >= 18:
+    show("You are an adult.")
+otherwise:
+    show("You are under 18.")
+
+# Custom keyword: unless
+unless name == "":
+    show("Thanks for using NexLang!")
+
+# New function: inside
+when inside(age, 18, 30):
+    show("Your age is within the range.")
