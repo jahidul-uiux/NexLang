@@ -1,0 +1,11 @@
+
+# My first NexLang program
+
+say "Hello, World!"
+
+loop 3:
+    say "Welcome to NexLang!"
+
+pause 1
+
+say "Program completed!"
